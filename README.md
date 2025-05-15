@@ -15,9 +15,19 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ````
 npm create vue@latest
 
+cd ./amex-csv
+
 npm install
 
 git init
+
+git add .
+
+git commit -m "First commit"
+
+git remote add origin git@github.com:Klorinmannen/pokemon-vue.git
+
+git push --set-upstream origin master
 
 npm run dev
 
